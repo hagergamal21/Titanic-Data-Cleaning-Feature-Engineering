@@ -1,8 +1,4 @@
-Perfect — here’s the polished version with **bold section titles** so it looks clean and professional in your GitHub README:
-
----
-
-# 🚢 Titanic Feature Engineering
+#  Titanic Feature Engineering
 
 This repository contains a **feature engineering pipeline** for the classic [Titanic dataset](tested.csv). The notebook demonstrates how to transform raw passenger records into a **machine-learning-ready dataset** through data cleaning, enrichment, and encoding.
 
@@ -18,18 +14,18 @@ This notebook focuses on **feature engineering**, a critical step that often det
 
 ## **🛠️ Steps in the Notebook**
 
-### **1. 🔍 Data Loading & Exploration**
+### **1.  Data Loading & Exploration**
 
 * Import Titanic dataset with Pandas.
 * Inspect data types, missing values, and survival distribution.
 * Quick exploratory statistics and visualizations.
 
-### **2. 🧹 Data Cleaning**
+### **2.  Data Cleaning**
 
 * Handle missing values for `Age`, `Cabin`, and `Embarked`.
 * Standardize formats and drop irrelevant identifiers.
 
-### **3. 🏗️ Feature Engineering**
+### **3.  Feature Engineering**
 
 * **Title Extraction** from names (Mr, Miss, Mrs, etc.).
 * **Family Size** (`SibSp` + `Parch` + 1).
@@ -38,19 +34,19 @@ This notebook focuses on **feature engineering**, a critical step that often det
 * **Age Groups** (Child, Teen, Adult, Senior).
 * **Fare Bins** to reduce skewness.
 
-### **4. 🔢 Encoding & Transformation**
+### **4.  Encoding & Transformation**
 
 * Convert categorical variables (Sex, Embarked, Title, Cabin Deck) into numerical form via Label or One-Hot Encoding.
 * Normalize continuous features where useful.
 
-### **5. 📦 Final Dataset Preparation**
+### **5.  Final Dataset Preparation**
 
 * Drop unnecessary columns (e.g., PassengerId, Ticket, Name).
 * Return a clean DataFrame ready for training ML models.
 
 ---
 
-## **🎯 Key Outcomes**
+## ** Key Outcomes**
 
 * A **reproducible pipeline** for feature engineering.
 * Demonstrates techniques like **categorical encoding, binning, imputation, and feature extraction**.
@@ -58,7 +54,7 @@ This notebook focuses on **feature engineering**, a critical step that often det
 
 ---
 
-## **📊 Next Steps**
+## ** Next Steps**
 
 * Train baseline models with engineered features.
 * Compare model performance with and without feature engineering.
