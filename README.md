@@ -1,10 +1,10 @@
-#  Titanic Feature Engineering
+# Titanic Feature Engineering
 
 This repository contains a **feature engineering pipeline** for the classic [Titanic dataset](tested.csv). The notebook demonstrates how to transform raw passenger records into a **machine-learning-ready dataset** through data cleaning, enrichment, and encoding.
 
 ---
 
-## **📖 Project Overview**
+## **Project Overview**
 
 The Titanic dataset is one of the most popular benchmarks for data science. The challenge is to predict passenger survival based on features such as age, gender, ticket class, and family connections.
 
@@ -12,7 +12,7 @@ This notebook focuses on **feature engineering**, a critical step that often det
 
 ---
 
-## **🛠️ Steps in the Notebook**
+## **Steps in the Notebook**
 
 ### **1.  Data Loading & Exploration**
 
@@ -46,7 +46,7 @@ This notebook focuses on **feature engineering**, a critical step that often det
 
 ---
 
-## ** Key Outcomes**
+## **Key Outcomes**
 
 * A **reproducible pipeline** for feature engineering.
 * Demonstrates techniques like **categorical encoding, binning, imputation, and feature extraction**.
@@ -54,14 +54,9 @@ This notebook focuses on **feature engineering**, a critical step that often det
 
 ---
 
-## ** Next Steps**
+## **Next Steps**
 
 * Train baseline models with engineered features.
 * Compare model performance with and without feature engineering.
 * Extend to ensemble methods (XGBoost, LightGBM).
-
-
-
-
-
 
